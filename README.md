@@ -1,11 +1,9 @@
 # XML-Document-Model
-Created XML parsing facility that reads XML strings or text files, builds a Document object that can be queried for information about the XML contents, supports programmatic modification of the Document.
-
 Purpose:
-This project requires you to develop an XML parsing facility that reads XML strings or text files, builds a Document object that can be queried for information about the XML contents, supports programmatic modification of the Document, and can write the revisions to another XML string or file. The project requires you to develop C++ packages to: parse the input, build a tree-based in-memory representation of the XML called a parse tree1, and support modifications of that representation. This facility will support read and write operations. It will also support the programmatic creation of new XML strings and files.
+Created XML parsing facility that reads XML strings or text files, builds a Document object that can be queried for information about the XML contents, supports programmatic modification of the Document, and can write the revisions to another XML string or file. The project requires you to develop C++ packages to: parse the input, build a tree-based in-memory representation of the XML called a parse tree1, and support modifications of that representation. This facility will support read and write operations. It will also support the programmatic creation of new XML strings and files.
 Requirements:
 
-XML Document project:
+XML Document project :
 
 1. Shall use standard C++2 and the standard library, compile and link from the command line, using Visual Studio 2013, as provided in the ECS clusters and operate in the environment provided there3.
 2. Shall use services of the C++ std::iostream library for all input and output to and from the user’s console and C++ operator new and delete for all dynamic memory management. You are encouraged use one of the standard C++11 smart pointer types to support memory management instead of directly managing heap allocations.
